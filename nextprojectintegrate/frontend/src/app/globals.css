@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto',
-        sans-serif;
+    font-family: 'Roboto';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 h3 {
     font-family: 'Roboto';
-    font-size: 45px;
     color: #1D1D47;
+    margin: 0px;
 }
 
 label {
@@ -22,7 +24,7 @@ input {
 
 button {
     border-radius: 5px;
-    padding: 10px 65px;
+    padding: 10px 45px;
     background: #1D1D47;
     color: white;
 }
