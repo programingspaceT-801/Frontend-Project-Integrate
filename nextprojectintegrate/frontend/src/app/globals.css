@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 45px;
+    color: #1D1D47;
+}
+
+label {
+    color: #1D1D47;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 65px;
+    background: #1D1D47;
+    color: white;
+}
+
+.divimagem {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+@media (max-width: 845px) {
+
+    /* Seu estilo para telas menores ou iguais a 845px */
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 634px) {
+    .divimagem {
+        display: none;
+    }
+}
